@@ -6,31 +6,60 @@
 	<title>First Website</title>
 	<!-- css code to style our site -->
 	<style> 
+		a:link {
+			color: red;
+		
+		}
+		a:visited{
+			color: scarlet;
+			
+		}
+		a:active{
+			color: white;
+		}
+		a:hover{
+			background-color: red;
+			color: black;
+		}
 		body {
 			background-color: black;
+			background-image: url('wave.jpg');
+			color: white;
 			font-family:Trebuchet;
-			color: #CDFFF7;
 		}
 		
 		h1 {
-		   font-size:100pt;
 		   color:lightblue;
+		   font-size:100pt;
+		   text-align: center;
 		 }
 		 
-		 h2 {
+		h2 {
 			color:lightblue;
+			font-size: 30;
+			}
+			
+		img { 
+			border: 5px solid lightblue;
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 10px;
 			}
 		P,li {
-		font-size: 18pt;
+			font-size: 18pt;
+			<!-- text-align: justify; -->
+			line-height: 2em;
 		}
 		
+		
 		div {
-			width: 700px;
+			background-color: black;
 			border: 3px solid lightblue;
 			margin-left: auto;
 			margin-right: auto;
 			margin-top: 50px;
 			padding: 20px;
+			width: 700px;
 			}
 	</style>
 </head>
@@ -40,6 +69,9 @@
 
 <div>
 <h1>Leo Qi</h1>
+
+<h2>Image:</h2>
+<img src="babyyoda.jpg" width="300px">
 
 <p>Hi, I'm Leo Qi, I was born in Xi'an, China, and I came to Vancouver in Grade 4. I'm a student in Lordbyng Secondary School. I play golf and the violin.</p>
 
@@ -65,9 +97,8 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rvUzuK0ygI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h2>Image:</h2>
-<img src="babyyoda.jpg">
 </div>
 </body>
 
 </html>
+<!-- <br> puts a margin -->
